@@ -19,6 +19,19 @@
   },
 ```
 
+#### ..\duelyst-main\app\sdk\cards\factory\core\faction3.coffee
+Εδώ φαίνεται ότι κάνει χρήση του ήχου sfx_f1_general_attack_impact 
+```
+      card.setBaseSoundResource(
+        apply : RSX.sfx_spell_divinebond.audio
+        walk : RSX.sfx_singe2.audio
+        attack : RSX.sfx_neutral_monsterdreamoracle_attack_swing.audio
+        receiveDamage : RSX.sfx_neutral_monsterdreamoracle_hit.audio
+        attackDamage : RSX.sfx_f1_general_attack_impact.audio
+        death : RSX.sfx_neutral_golembloodshard_death.audio
+      )
+```
+
 #### ..\duelyst-main\app\common\utils\utils_resources.js
 Εδώ φαίνεται ότι προσπαθεί να αντλήσει πληροφορία από το object resources
 ```
