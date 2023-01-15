@@ -1,10 +1,16 @@
 # resources
 
-Διάφορες σημειώσεις που μπορεί να φανούν χρήσιμες.
+Διάφορες σημειώσεις που μπορεί να φανούν χρήσιμες.  
+
+Με το Notepad++>Search>Find in Files...>Find what:>Directory:>Find All μπορείς να δώσεις ένα κείμενο και ένα directory και να ψάξει όλα τα subdirectories για το συγκεκριμένο κείμενο.
 
 #### ..\duelyst-main\app\data\resources.js  
-Εδώ φαίνεται ότι δημιουργεί πληροφορίες για τα resources ώστε όταν αναφέρει π.χ. f2PandaBearAttack να ξέρει σε ποιο frame αναφέρεται και άλλες πληροφορίες όπως το frameDelay.
+Εδώ φαίνεται ότι δημιουργεί πληροφορίες για τα resources ώστε όταν αναφέρει π.χ. f2PandaBearAttack να ξέρει σε ποιο frame αναφέρεται και άλλες πληροφορίες όπως το frameDelay, αλλά κι ότι το sfx_f1_general_hit είναι ο ήχος sfx_f1_general_hit.m4a.
 ```
+  sfx_f1_general_attack_impact: { name: 'sfx_f1_general_attack_impact', audio: 'resources/sfx/sfx_f1_general_attack_impact.m4a' },
+  sfx_f1_general_attack_swing: { name: 'sfx_f1_general_attack_swing', audio: 'resources/sfx/sfx_f1_general_attack_swing.m4a' },
+  sfx_f1_general_hit: { name: 'sfx_f1_general_hit', audio: 'resources/sfx/sfx_f1_general_hit.m4a' },
+  ...
   f2PandaBearAttack: {
     name: 'f2PandaBearAttack', img: 'resources/units/f2_pandabear02.png', is16Bit: true, plist: 'resources/units/f2_pandabear02.plist', framePrefix: 'f2_pandabear02_attack_', frameDelay: 0.08,
   },
